@@ -3,36 +3,42 @@ import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
+import doctorAppointment from "../../assets/doctor-appointment.png";
+import jobPortal from "../../assets/Job-portal.png";
+import foodDelivery from "../../assets/food-delivery.png";
+import chatApp from "../../assets/chat-app.png";
+
 const projects = [
   {
     name: "Doctor's Appointment",
     year: "Mar2024",
     align: "right",
-    image: "../../public/images/doctor-appointment.png",
+    image: doctorAppointment, // ✅ Imported image
     link: "https://doctor-appointment-4nhw.onrender.com",
   },
   {
     name: "Job Portal",
     year: "Sept2023",
     align: "left",
-    image: "../../public/images/Job-portal.png",
+    image: jobPortal, // ✅ Imported image
     link: "https://job-portal-daop.onrender.com",
   },
   {
     name: "Food Delivery",
     year: "Jan2023",
     align: "right",
-    image: "../../public/images/food-delivery.png",
+    image: foodDelivery, // ✅ Imported image
     link: "https://food-delivery-3xne.onrender.com",
   },
   {
     name: "Chat Application",
     year: "May2022",
     align: "left",
-    image: "../../public/images/chat-app.png",
+    image: chatApp, // ✅ Imported image
     link: "https://chat-application-1l6u.onrender.com",
   },
 ];
+
 
 const ProjectsMain = () => {
   return (

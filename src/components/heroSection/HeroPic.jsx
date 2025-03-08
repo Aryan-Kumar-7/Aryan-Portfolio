@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
+import RajHexa from "../../assets/RajHexa.png";
 
 const HeroPic = () => {
   return (
@@ -12,8 +13,8 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/RajHexa.png"
-        alt="Abdelrahman Qassem"
+        src={RajHexa}
+        alt="Aryan Raj"
         className="max-h-[450px] w-auto"
       />
 
